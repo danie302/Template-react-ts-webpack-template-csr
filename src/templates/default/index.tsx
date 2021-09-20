@@ -1,15 +1,15 @@
 // Dependencies
-import React from 'react'
+import React from "react";
 
 // Assets
-import "./index.scss"
+import "./index.scss";
 
-function Default() {
+function Default(): JSX.Element {
     return (
         <div>
-            <h2 className="title">Default Theme</h2>
+            <h2 className='title'>Default Theme</h2>
         </div>
-    )
+    );
 }
 
-export default Default
+export default Default;

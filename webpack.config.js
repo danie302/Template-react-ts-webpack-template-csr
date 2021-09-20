@@ -16,12 +16,12 @@ module.exports = {
   },
   devtool: "source-map",
   resolve: {
-    extensions: [".js", ".jsx", ".ts", ".tsx"],
+    extensions: [".js", ".jsx", ".ts", ".tsx", "json"],
     alias: {
-      "@api": path.resolve(__dirname, "./src/Api"),
+      "@api": path.resolve(__dirname, "./src/api"),
       "@utils": path.resolve(__dirname, "./src/utils"),
       "@styles": path.resolve(__dirname, "./src/styles"),
-      "@repo": path.resolve(__dirname, "./src/Repositories"),
+      "@repo": path.resolve(__dirname, "./src/repositories"),
       "@templates": path.resolve(__dirname, "./src/templates"),
       "@images": path.resolve(__dirname, "./src/assets/images"),
     },

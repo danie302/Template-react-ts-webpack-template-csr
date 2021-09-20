@@ -1,22 +1,26 @@
 {
-    "compilerOptions": {
-        "baseUrl": "./src/",
-        "outDir": "./dist/",
-        "sourceMap": true,
-        "noImplicitAny": true,
-        "module": "es6",
-        "target": "es5",
-        "jsx": "react",
-        "allowJs": true,
-        "moduleResolution": "node",
-        "allowSyntheticDefaultImports": true,
-        "paths": {
-            "@api/*": ["Api/*"],
-            "@utils/*": ["utils/*"],
-            "@styles/*": ["styles/*"],
-            "@repo/*": ["Repositories/*"],
-            "@templates/*": ["templates/*"],
-            "@images/*": ["assets/images/*"],
-        },
+  "compilerOptions": {
+    "jsx": "react",
+    "allowJs": true,
+    "target": "es5",
+    "sourceMap": true,
+    "module": "esnext",
+    "outDir": "./dist/",
+    "baseUrl": "./src/",
+    "skipLibCheck": true,
+    "noImplicitAny": true,
+    "esModuleInterop": true,
+    "lib": ["dom", "esnext"],
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "paths": {
+      "@api/*": ["api/*"],
+      "@utils/*": ["utils/*"],
+      "@styles/*": ["styles/*"],
+      "@repo/*": ["repositories/*"],
+      "@templates/*": ["templates/*"],
+      "@images/*": ["assets/images/*"]
     }
+  },
+  "exclude": ["node_modules"]
 }

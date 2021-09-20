@@ -1,14 +1,14 @@
 // Dependencies
-import React from 'react';
-import ReactDOM from 'react-dom';
-import Default from '@templates/default/';
+import React from "react";
+import ReactDOM from "react-dom";
+import Default from "@templates/default/";
 
 // Assets
-import './index.scss';
+import "./index.scss";
 
 ReactDOM.render(
-  <React.StrictMode>
-      <Default />
-  </React.StrictMode>,
-  document.getElementById('root')
+    <React.StrictMode>
+        <Default />
+    </React.StrictMode>,
+    document.getElementById("root")
 );
