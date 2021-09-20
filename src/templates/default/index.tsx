@@ -1,9 +1,13 @@
+// Dependencies
 import React from 'react'
+
+// Assets
+import "./index.scss"
 
 function Default() {
     return (
         <div>
-            Default theme
+            <h2 className="title">Default Theme</h2>
         </div>
     )
 }
