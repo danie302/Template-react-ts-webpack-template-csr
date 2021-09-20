@@ -1,14 +1,19 @@
 // Dependencies
 import React from "react";
+import { BrowserRouter as Router } from "react-router-dom";
 
 // Assets
 import "./index.scss";
 
-function Default(): JSX.Element {
+interface TemplateProps {
+    children?: React.ReactNode;
+}
+
+function Default({ children }: TemplateProps): JSX.Element {
     return (
-        <div>
-            <h2 className='title'>Default Theme</h2>
-        </div>
+        <>
+            <Router>{children}</Router>
+        </>
     );
 }
 

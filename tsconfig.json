@@ -1,26 +1,28 @@
 {
-  "compilerOptions": {
-    "jsx": "react",
-    "allowJs": true,
-    "target": "es5",
-    "sourceMap": true,
-    "module": "esnext",
-    "outDir": "./dist/",
-    "baseUrl": "./src/",
-    "skipLibCheck": true,
-    "noImplicitAny": true,
-    "esModuleInterop": true,
-    "lib": ["dom", "esnext"],
-    "moduleResolution": "node",
-    "allowSyntheticDefaultImports": true,
-    "paths": {
-      "@api/*": ["api/*"],
-      "@utils/*": ["utils/*"],
-      "@styles/*": ["styles/*"],
-      "@repo/*": ["repositories/*"],
-      "@templates/*": ["templates/*"],
-      "@images/*": ["assets/images/*"]
-    }
-  },
-  "exclude": ["node_modules"]
+    "compilerOptions": {
+        "jsx": "react",
+        "allowJs": true,
+        "target": "es5",
+        "sourceMap": true,
+        "module": "esnext",
+        "outDir": "./dist/",
+        "baseUrl": "./src/",
+        "skipLibCheck": true,
+        "noImplicitAny": true,
+        "esModuleInterop": true,
+        "lib": ["dom", "esnext"],
+        "resolveJsonModule": true,
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports": true,
+        "paths": {
+            "@api/*": ["api/*"],
+            "@pages/*": ["pages/*"],
+            "@utils/*": ["utils/*"],
+            "@styles/*": ["styles/*"],
+            "@repo/*": ["repositories/*"],
+            "@templates/*": ["templates/*"],
+            "@images/*": ["assets/images/*"]
+        }
+    },
+    "exclude": ["node_modules"]
 }
