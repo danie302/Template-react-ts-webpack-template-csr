@@ -4,14 +4,14 @@
 
 ## Content
 
-- 1. [Project Description](#ProjectDescription)
-- 2. [Installation](#Installation)
-- 3. [Scripts](#Scripts)
-- 4. [Project Structure](#ProjectStructure)
-  - 4.1. [Application](#Application)
-  - 4.2. [Infrastructure](#Infrastructure)
-  - 4.3. [Presentation](#Presentation)
-- 5. [Testing](#Testing)
+-   1. [Project Description](#ProjectDescription)
+-   2. [Installation](#Installation)
+-   3. [Scripts](#Scripts)
+-   4. [Project Structure](#ProjectStructure)
+    -   4.1. [Application](#Application)
+    -   4.2. [Infrastructure](#Infrastructure)
+    -   4.3. [Presentation](#Presentation)
+-   5. [Testing](#Testing)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -24,11 +24,10 @@ The project is structure with the following technologies:
 1. [React](https://facebook.github.io/react/)
 2. [TypeScript](https://www.typescriptlang.org/)
 3. [Create React App](https://create-react-app.dev/)
-4. [Redux](http://redux.js.org/)
-5. [React Router](https://reactrouter.com/)
-6. [SASS](http://sass-lang.com/)
-7. [Jest](https://facebook.github.io/jest/)
-8. [Enzyme](https://enzymejs.github.io/enzyme/)
+4. [React Router](https://reactrouter.com/)
+5. [SASS](http://sass-lang.com/)
+6. [Jest](https://facebook.github.io/jest/)
+7. [Enzyme](https://enzymejs.github.io/enzyme/)
 
 ## 2. <a name='Installation'></a>Installation
 
@@ -53,6 +52,14 @@ You will also see any lint errors in the console.
 
 Launches the test runner in the interactive watch mode.
 
+### `npm run test:coverage`
+
+Launches the test runner to generate a code coverage report.
+
+### `npm run test:snapshot`
+
+Launches the test runner to generate code snapshots.
+
 ### `npm run build`
 
 Builds the app for production to the `dist` folder.\
@@ -60,6 +67,14 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
+
+### `npm run lint`
+
+Launch linter to review and analyze the code.
+
+### `npm run lint`
+
+Launch linter to review and analyze the code and fix the code.
 
 ## 4. <a name='ProjectStructure'></a>Project Structure
 
