@@ -1,54 +1,53 @@
 {
-  "root": true,
-  "parser": "@typescript-eslint/parser",
-  "plugins": ["@typescript-eslint", "prettier", "react", "import", "react-hooks"],
-  "extends": [
-    "airbnb-typescript", // Uses Airbnb's ESLint config with React and TypeScript support
-    "plugin:@typescript-eslint/recommended", // Uses the recommended rules from @typescript-eslint/eslint-plugin,
-    "plugin:react/recommended", // Uses the recommended rules from @eslint-plugin-react
-    // Enables eslint-plugin-prettier and displays prettier errors as ESLint errors. Make sure this is always the last configuration in the extends array
-    "plugin:prettier/recommended"
-  ],
-  "settings": {
-    "react": {
-      "version": "detect" // Tells eslint-plugin-react to automatically detect the version of React to use
-    },
-    "import/parsers": {
-      "@typescript-eslint/parser": [".ts", ".tsx"]
-    },
-    "import/resolver": {
-      "node": {
-        "extensions": [".js", ".jsx", ".ts", ".tsx"]
-      }
-    }
-  },
-  "parserOptions": {
-    "ecmaVersion": 2018, // Allows for the parsing of modern ECMAScript features
-    "sourceType": "module", // Allows for the use of imports
-    "project": "./tsconfig.json",
-    "ecmaFeatures": {
-      "jsx": true // Allows for the parsing of JSX
-    }
-  },
-  "rules": {
-    // Place to specify ESLint rules. Can be used to overwrite rules specified from the extended configs
-    // e.g. "@typescript-eslint/explicit-function-return-type": "off",
-    "react-hooks/rules-of-hooks": "error",
-    "import/prefer-default-export": "off",
-    "no-empty-function": "off",
-    "no-useless-constructor": "off",
-    "lines-between-class-members": "off",
-    "@typescript-eslint/no-namespace": "off",
-    "@typescript-eslint/no-parameter-properties": "off",
-    "react/self-closing-comp": [
-      "error",
-      {
-        "component": true,
-        "html": true
-      }
+    "root": true,
+    "parser": "@typescript-eslint/parser",
+    "plugins": ["@typescript-eslint", "prettier", "react", "import", "react-hooks"],
+    "extends": [
+        "airbnb-typescript", // Uses Airbnb's ESLint config with React and TypeScript support
+        "plugin:@typescript-eslint/recommended", // Uses the recommended rules from @typescript-eslint/eslint-plugin,
+        "plugin:react/recommended", // Uses the recommended rules from @eslint-plugin-react
+        // Enables eslint-plugin-prettier and displays prettier errors as ESLint errors. Make sure this is always the last configuration in the extends array
+        "plugin:prettier/recommended"
     ],
-    "react-hooks/exhaustive-deps": "off",
-    "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
-    "react/prop-types": "off"
-  }
+    "settings": {
+        "react": {
+            "version": "detect" // Tells eslint-plugin-react to automatically detect the version of React to use
+        },
+        "import/parsers": {
+            "@typescript-eslint/parser": [".ts", ".tsx"]
+        },
+        "import/resolver": {
+            "node": {
+                "extensions": [".js", ".jsx", ".ts", ".tsx"]
+            }
+        }
+    },
+    "parserOptions": {
+        "ecmaVersion": 2018, // Allows for the parsing of modern ECMAScript features
+        "sourceType": "module", // Allows for the use of imports
+        "ecmaFeatures": {
+            "jsx": true // Allows for the parsing of JSX
+        }
+    },
+    "rules": {
+        // Place to specify ESLint rules. Can be used to overwrite rules specified from the extended configs
+        // e.g. "@typescript-eslint/explicit-function-return-type": "off",
+        "react-hooks/rules-of-hooks": "error",
+        "import/prefer-default-export": "off",
+        "no-empty-function": "off",
+        "no-useless-constructor": "off",
+        "lines-between-class-members": "off",
+        "@typescript-eslint/no-namespace": "off",
+        "@typescript-eslint/no-parameter-properties": "off",
+        "react/self-closing-comp": [
+            "error",
+            {
+                "component": true,
+                "html": true
+            }
+        ],
+        "react-hooks/exhaustive-deps": "off",
+        "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
+        "react/prop-types": "off"
+    }
 }

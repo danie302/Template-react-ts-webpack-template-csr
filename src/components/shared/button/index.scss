@@ -1,0 +1,62 @@
+.btn {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: var(--p-s);
+    font-family: var(--font);
+    border-radius: var(--r-sm);
+    background-position: center;
+    transition: background 0.8s;
+    &--primary {
+        color: var(--c-white);
+        background-color: var(--c-primary);
+    }
+    &--primary:hover {
+        background: var(--c-primary-soft) radial-gradient(circle, transparent 1%, var(--c-primary-soft) 1%)
+            center/15000%;
+    }
+    &--primary:active {
+        background-color: var(--c-primary-soft);
+        background-size: 100%;
+        transition: background 0s;
+    }
+    &--secondary {
+        color: var(--c-white);
+        background-color: var(--c-secondary);
+    }
+    &--secondary:hover {
+        background: var(--c-secondary-soft) radial-gradient(circle, transparent 1%, var(--c-secondary-soft) 1%)
+            center/15000%;
+    }
+    &--secondary:active {
+        background-color: var(--c-secondary-soft);
+        background-size: 100%;
+        transition: background 0s;
+    }
+    &--light {
+        color: var(--c-primary);
+        background-color: var(--c-white);
+    }
+    &--light:hover {
+        background: var(--c-black-softer) radial-gradient(circle, transparent 1%, var(--c-black-softer) 1%)
+            center/15000%;
+    }
+    &--light:active {
+        background-color: var(--c-black-softer);
+        background-size: 100%;
+        transition: background 0s;
+    }
+    &--tertiary {
+        color: var(--c-white);
+        background-color: var(--c-tertiary);
+    }
+    &--tertiary:hover {
+        background: var(--c-tertiary-soft) radial-gradient(circle, transparent 1%, var(--c-tertiary-soft) 1%)
+            center/15000%;
+    }
+    &--tertiary:active {
+        background-color: var(--c-tertiary-soft);
+        background-size: 100%;
+        transition: background 0s;
+    }
+}

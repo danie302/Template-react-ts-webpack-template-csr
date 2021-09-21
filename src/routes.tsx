@@ -3,9 +3,11 @@ import React from "react";
 import { Route, Switch } from "react-router-dom";
 
 // Components
-import Home from "@pages/home/index";
-import Page404 from "@pages/404/";
 import Default from "@templates/default/";
+
+// Routes
+const Home = React.lazy(() => import("@pages/home/"));
+const Page404 = React.lazy(() => import("@pages/404/"));
 
 const AppRoutes = (): JSX.Element => (
     <Default>

@@ -2,18 +2,28 @@
 
 [React Template](react-template)
 
+###### By Daniel Daza
+
+<br/>
+<br/>
+
 ## Content
 
--   1. [Project Description](#ProjectDescription)
--   2. [Installation](#Installation)
--   3. [Scripts](#Scripts)
--   4. [Project Structure](#ProjectStructure)
-    -   4.1. [Application](#Application)
-    -   4.2. [Infrastructure](#Infrastructure)
-    -   4.3. [Presentation](#Presentation)
--   5. [Testing](#Testing)
+1. [Project Description](#ProjectDescription)
+2. [Installation](#Installation)
+3. [Scripts](#Scripts)
+4. [Project Structure](#ProjectStructure)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+    4.1. [Application](#Application)
+
+    4.2. [Infrastructure](#Infrastructure)
+
+    4.3. [Presentation](#Presentation)
+
+5. [Testing](#Testing)
+
+<br/>
+<br/>
 
 ## 1. <a name='ProjectDescription'></a>Project Description
 
@@ -72,7 +82,7 @@ Your app is ready to be deployed!
 
 Launch linter to review and analyze the code.
 
-### `npm run lint`
+### `npm run lint-fix`
 
 Launch linter to review and analyze the code and fix the code.
 

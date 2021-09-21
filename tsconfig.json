@@ -21,7 +21,8 @@
             "@styles/*": ["styles/*"],
             "@repo/*": ["repositories/*"],
             "@templates/*": ["templates/*"],
-            "@images/*": ["assets/images/*"]
+            "@images/*": ["assets/images/*"],
+            "@components/*": ["components/*"]
         }
     },
     "exclude": ["node_modules"]
